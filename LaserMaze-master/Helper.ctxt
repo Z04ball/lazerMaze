@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Helper
+comment0.text=\r\n\ Helps\ determine\ where\ a\ piece\ will\ go\ on\ the\ board\r\n\r\n\ @author\ Kaley,\ Tyler,\ Sean,\ Ben,\ Zach\r\n\ @version\ 4/5/18\r\n
+comment1.params=space
+comment1.target=int\ spaceX(int)
+comment1.text=\r\n\ finds\ the\ x\ coordinate\ of\ a\ piece\ at\ a\ given\ space\r\n\ \r\n\ @param\ space,\ the\ space\ where\ the\ piece\ is\ \r\n\ @return\ the\ x\ coordinate\ number\r\n
+comment2.params=space
+comment2.target=int\ spaceY(int)
+comment2.text=\r\n\ finds\ the\ y\ coordinate\ of\ a\ piece\ at\ a\ given\ space\r\n\ \r\n\ @param\ space,\ the\ space\ where\ the\ piece\ is\ \r\n\ @return\ the\ y\ coordinate\ number\r\n
+comment3.params=x\ y
+comment3.target=int\ whatSpace(int,\ int)
+comment3.text=\r\n\ This\ method\ is\ a\ helper\ method\ used\ to\ find\ where\ a\ piece\ will\ go.\ Based\ on\ where\ the\ click\ is,\ \r\n\ it\ will\ determine\ the\ space\r\n\ 1\ 2\ 3\ 4\ 5\r\n\ 6\ 7\ 8\ 9\ 10\r\n\ etc...\r\n\ Every\ 5\ spaces\ repeats\ the\ same\ x-coordinates\ with\ different\ shared\ Y-coordinates\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ X1\=\ 111->\ 218\ \ \ \ X2\=\ 252->\ 359\ \ \ \ X3\=\ 393->\ 500\ \ \ X4\=\ 534->\ 641\ \ \ X5\=\ 675->\ 782\r\n\ \ Y1\=\ 90-197\r\n\ \ Y2\=\ 231-338\r\n\ \ Y3\=\ 372-479\r\n\ \ Y4\=\ 513-620\r\n\ \ Y5\=\ 654-761\r\n\ \ \r\n\ \ @param\ x\ The\ x\ coordinate\r\n\ \ @param\ y\ The\ Y\ coordinate\r\n\ \ @return\ The\ space\ that\ is\ currently\ being\ looked\ at\r\n
+numComments=4

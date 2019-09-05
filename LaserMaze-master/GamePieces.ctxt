@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GamePieces
+comment0.text=\r\n\ Models\ a\ game\ piece\ to\ be\ placed\ on\ the\ board.\r\n\r\n\ @author\ Ben,\ Tyler,\ Zach,\ Sean,\ Kaley\r\n\ @version\ 3/15\r\n
+comment1.params=color\ function\ canRotate\ direction
+comment1.target=GamePieces(java.awt.Color,\ CardFunction,\ boolean,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GamePieces\r\n
+comment2.params=color\ function\ canRotate
+comment2.target=GamePieces(java.awt.Color,\ CardFunction,\ boolean)
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=CardFunction\ getFunction()
+comment5.params=
+comment5.target=boolean\ getCanRotate()
+comment6.params=
+comment6.target=int\ getDirection()
+comment7.params=img
+comment7.target=void\ setImage(java.awt.image.BufferedImage)
+numComments=8
